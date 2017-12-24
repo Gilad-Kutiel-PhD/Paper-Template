@@ -1,18 +1,37 @@
-\documentclass[draft]{article}
+\documentclass[preprint,12pt,authoryear]{elsarticle}
 
 \input{libs}
-\input{def}
-\input{tikz}
 
-\input{title}
-\input{authors}
+\journal{TODO}
 
 \begin{document}
-\maketitle
+
+\begin{frontmatter}
+
+\title{Title}
+
+\title{}
+
+\input{authors}
+\author{}
+
+\address{}
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\begin{keyword}
+\input{keyword}
+\end{keyword}
+
+\end{frontmatter}
 
 \input{outline}
 
-\bibliographystyle{plain}
+\bibliographystyle{elsarticle-harv} 
 \bibliography{main}
 
 \end{document}
+
+\endinput
